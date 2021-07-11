@@ -7,7 +7,7 @@ const Search = () => {
   const [search, setSearch] = useState("");
 
   function handleChange(e) {
-      if(e.target.value == "") {
+      if(e.target.value === "") {
           setSearch("")
       }
     setName(e.target.value);
