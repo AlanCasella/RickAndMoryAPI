@@ -6,9 +6,6 @@ import Dimension from "./dimension"
 
 function App() {
 
-  function handleClick() {
-
-  }
   return (
     <>
     <a href="/">HOME</a>
